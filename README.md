@@ -20,8 +20,7 @@ B.	Deskripsi Rangkaian
 
 PCB yang di desain memiliki dimensi 50mm*100mm dimana design rules yang digunakan mengikuti kemampuan dari vendor pembuatan PCB MultiKarya. Lebar jalur disesuaikan dengan daya akan akan melewati jalur tersebut. Penempatan komponen dilakukan dalam upaya mengurangi gangguan pada antenna ESP-Wroom-02. Sumber daya yang digunakan diasumsikan bertegangan 24V. Tegangan tersebut lalu dibagi menggunakan linear regulator agar memberikan catu daya 12V, 5V dan 3.3V.  Untuk memudahkan komunikasi ESP-Wroom-02 dengan ATmega328p, tegangan yang digunakan untuk menjalankan kedua microprocessor tersebut di set 3.3V sehingga tegangan tersebut perlu dijaga terutama pada saat upload program. Skematik dilampirkan dalam bentuk PDF dan GBR dalam bentuk ZIP. Penyematan gambar dari rangkaian yang telah didesain adalah sebagai berikut:
 
- 
-   ![alt text](https://github.com/apawitan1995/efishery_motorcontroller/blob/master/brd_capture_arif.JPG?raw=true)
+  ![alt text](https://github.com/apawitan1995/efishery_motorcontroller/blob/master/brd_capture_arif.JPG?raw=true)
  
 Gambar B.1 Penyematan gambar dari rangkaian yang telah di desain.
 
