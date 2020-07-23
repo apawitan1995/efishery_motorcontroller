@@ -30,7 +30,7 @@ C.	Deskripsi Program
 
 Firmware untuk Atmega dan untuk ESP telah dilampirkan dalam file Arduino IDE (.ino). Dalam firmware Atmega digunakan 2 ISR untuk perhitungan kecepatan motor dan kendali kecepatan motor. Untuk proses yang tidak critical seperti pengaturan LCD dan komunikasi serial, fungsi dijalankan pada loop seperti pada umumnya dengan memanfaatkan millis agar waktu dioperasikan bias tetap teratur. FSM (finite state machine) telah digunakan untuk menjalankan sistem operasi dan user interface. Diagram state yang digunakan adalah sebagai berikut :
  
-    ![alt text](https://github.com/apawitan1995/efishery_motorcontroller/blob/master/diagramfsm_arif.jpg?raw=true)
+    ![alt text](https://github.com/apawitan1995/efishery_motorcontroller/blob/master/diagramfsm_arif.JPG?raw=true)
  
 Gambar C.1 Diagram FSM dari firmware Atmega.
 
